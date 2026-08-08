@@ -1,0 +1,114 @@
+{
+  "slug": "esports-studio",
+  "host": "esports",
+  "title": "Esports Studio",
+  "tagline": "Leaderboards, tournaments and guilds",
+  "description": "## Microservices Used",
+  "editors": [
+    {
+      "category": "Esports Editors",
+      "name": "Tournament Bracket Editor",
+      "desc": "Bracket structure and seeding"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Leaderboard Editor",
+      "desc": "Ranking board configuration"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Guild/Clan Editor",
+      "desc": "Guild roster and structure"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Match Schedule Editor",
+      "desc": "Fixture and match scheduling"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Team Roster Editor",
+      "desc": "Team lineup management"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Ranking Algorithm Editor",
+      "desc": "Rating/MMR algorithm tuning"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Prize Pool Editor",
+      "desc": "Prize distribution rules"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Spectator Mode Editor",
+      "desc": "Spectator/broadcast view setup"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Stream Overlay Editor",
+      "desc": "Live stream overlay design"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Player Stats Editor",
+      "desc": "Player performance statistics"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Season Pass Editor",
+      "desc": "Season progression and rewards"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Matchmaking Rule Editor",
+      "desc": "Skill-based matchmaking rules"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Event Registration Editor",
+      "desc": "Tournament sign-up flow"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Ruleset Editor",
+      "desc": "Competition rules and formats"
+    },
+    {
+      "category": "Esports Editors",
+      "name": "Community Chat Editor",
+      "desc": "In-game/event chat moderation"
+    }
+  ],
+  "services": [
+    [
+      "scheduling",
+      "new"
+    ],
+    [
+      "customer",
+      "core"
+    ],
+    [
+      "payment",
+      "core"
+    ],
+    [
+      "publishing",
+      "core"
+    ],
+    [
+      "media",
+      "new"
+    ],
+    [
+      "realtime",
+      "gap"
+    ],
+    [
+      "review",
+      "new"
+    ]
+  ]
+}
